@@ -34,20 +34,10 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.basicStyles.Italic,
       window.CKEditor5.essentials.Essentials,
       window.CKEditor5.heading.Heading,
-      window.CKEditor5.image.Image,
-      window.CKEditor5.image.ImageCaption,
-      window.CKEditor5.image.ImageStyle,
-      window.CKEditor5.image.ImageToolbar,
-      window.CKEditor5.image.ImageUpload,
       window.CKEditor5.indent.Indent,
       window.CKEditor5.link.Link,
-      window.CKEditor5.list.List,
       window.CKEditor5.paragraph.Paragraph,
       window.CKEditor5.pasteFromOffice.PasteFromOffice,
-      window.CKEditor5.table.Table,
-      window.CKEditor5.table.TableToolbar,
-      window.CKEditor5.table.TableColumnResize,
-      window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       StrapiMediaLib
     ],
@@ -58,36 +48,20 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       '|',
       'bold', 'italic',
       '|',
-      'link', 'strapiMediaLib', 'insertTable',
-      '|',
-      'bulletedList', 'numberedList'
+      'link',
     ],
     heading: {
       options: [
-        { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
-        { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
-        { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' },
-        { model: 'heading3', view: 'h3', title: 'Heading 3', class: 'ck-heading_heading3' },
-        { model: 'heading4', view: 'h4', title: 'Heading 4', class: 'ck-heading_heading4' },
-      ]
-    },
-    image: {
-      toolbar: [
-        'imageStyle:inline',
-        'imageStyle:block',
-        'imageStyle:side',
-        '|',
-        'toggleImageCaption',
-        'imageTextAlternative'
-      ]
-    },
-    table: {
-      contentToolbar: [
-        'tableColumn',
-        'tableRow',
-        'mergeTableCells',
-        '|',
-        'toggleTableCaption'
+        { model: 'heading1', view: { name: 'h1', classes: 'typography-h1' }, title: 'H1' },
+        { model: 'heading2', view: { name: 'h2', classes: 'typography-h2' }, title: 'H2' },
+        { model: 'heading3', view: { name: 'h3', classes: 'typography-h3' }, title: 'H3' },
+        { model: 'heading4', view: { name: 'h4', classes: 'typography-h4' }, title: 'H4' },
+        { model: 'heading5', view: { name: 'h5', classes: 'typography-h5' }, title: 'H5' },
+        { model: 'heading6', view: { name: 'h6', classes: 'typography-h6' }, title: 'H6' },
+        { model: 'paragraph1', view: { name: 'span', classes: 'typography-small-button' }, title: 'Small Button' },
+        { model: 'paragraph2', view: { name: 'span', classes: 'typography-body-copy' }, title: 'Body Copy' },
+        { model: 'paragraph3', view: { name: 'span', classes: 'typography-body-bold' }, title: 'Body Bold' },
+        { model: 'paragraph4', view: { name: 'span', classes: 'typography-body-legal' }, title: 'Legal' },
       ]
     },
   },

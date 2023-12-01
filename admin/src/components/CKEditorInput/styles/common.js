@@ -19,27 +19,71 @@ export const style = css`
       margin: revert;
     }
 
-    h1 {
-      font-size: 2em;
-      margin-bottom: 0.6em;
+    typography-h1 {
+      font-size: 4.75rem;
+      font-weight: 500;
+      line-height: 5.5rem;
+      letter-spacing: -0.095rem;
+    }
+
+    typography-h2 {
+      font-size: 3.5rem;
+      font-weight: 500;
+      line-height: 4.9rem;
+      letter-spacing: -0.035rem;
+    }
+
+    typography-h3 {
+      font-size: 2.25rem;
+      font-weight: 500;
+      line-height: 3.15rem;
+      letter-spacing: normal;
+    }
+
+    typography-h4 {
+      font-size: 1.375rem;
+      line-height: 1.925rem;
+      font-weight: 500;
+      letter-spacing: normal;
+    }
+
+    typography-h5 {
+      font-size: 1.125rem;
+      line-height: 1.5rem;
       font-weight: 400;
     }
 
-    h2 {
-      font-size: 1.68em;
-      margin-bottom: 0.4em;
-      font-weight: 400;
+    typography-h6 {
+      font-size: 0.875rem;
+      line-height: 1rem;
+      font-weight: 500;
     }
 
-    h3 {
-      font-size: 1.36em;
-      margin-bottom: 0.2em;
-      font-weight: 400;
+    .typography-small-button {
+      display: block;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+      font-weight: 500;
     }
 
-    h4 {
-      font-size: 1.15em;
-      margin-bottom: 0.1em;
+    .typography-body-copy {
+      display: block;
+      font-size: 1.625rem;
+      line-height: 2.275rem;
+      font-weight: 400;
+    }
+    
+    .typography-body-bold {
+      display: block;
+      font-size: 1.625rem;
+      line-height: 2.275rem;
+      font-weight: 600;
+    }
+
+    .typography-body-legal {
+      display: block;
+      font-size: 0.75rem;
+      line-height: 1rem;
       font-weight: 400;
     }
 

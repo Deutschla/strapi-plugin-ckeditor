@@ -32,6 +32,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.autoformat.Autoformat,
       window.CKEditor5.basicStyles.Bold,
       window.CKEditor5.basicStyles.Italic,
+      window.CKEditor5.font.FontColor,
       window.CKEditor5.essentials.Essentials,
       window.CKEditor5.heading.Heading,
       window.CKEditor5.indent.Indent,
@@ -46,7 +47,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       '|',
       'heading',
       '|',
-      'bold', 'italic',
+      'bold', 'italic', 'fontColor',
       '|',
       'link',
     ],
@@ -64,6 +65,46 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         { model: 'paragraph4', view: { name: 'span', classes: 'typography-body-legal' }, title: 'Legal' },
       ]
     },
+    fontColor: {
+      colors: [
+        {
+          color: '#000',
+          label: 'Black'
+        },
+        {
+          color: '#fff',
+          label: 'White'
+        },
+        {
+          color: '#5b5755',
+          label: 'Carbon'
+        },
+        {
+          color: '#e3dfd7',
+          label: 'Concrete'
+        },
+        {
+          color: '#bcbcbc',
+          label: 'Stone'
+        },
+        {
+          color: '#fff9ee',
+          label: 'Sand'
+        },
+        {
+          color: '#ff5500',
+          label: 'Orange'
+        },
+        {
+          color: '#ffaa00',
+          label: 'Orange Poppy'
+        },
+        {
+          color: '#ebff02',
+          label: 'Electric Sun'
+        },
+      ]
+    }
   },
 
   standard: {

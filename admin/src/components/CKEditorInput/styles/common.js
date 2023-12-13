@@ -19,41 +19,41 @@ export const style = css`
       margin: revert;
     }
 
-    typography-h1 {
+    .typography-h1 {
       font-size: 4.75rem;
       font-weight: 500;
       line-height: 5.5rem;
       letter-spacing: -0.095rem;
     }
 
-    typography-h2 {
+    .typography-h2 {
       font-size: 3.5rem;
       font-weight: 500;
       line-height: 4.9rem;
       letter-spacing: -0.035rem;
     }
 
-    typography-h3 {
+    .typography-h3 {
       font-size: 2.25rem;
       font-weight: 500;
       line-height: 3.15rem;
       letter-spacing: normal;
     }
 
-    typography-h4 {
+    .typography-h4 {
       font-size: 1.375rem;
       line-height: 1.925rem;
       font-weight: 500;
       letter-spacing: normal;
     }
 
-    typography-h5 {
+    .typography-h5 {
       font-size: 1.125rem;
       line-height: 1.5rem;
       font-weight: 400;
     }
 
-    typography-h6 {
+    .typography-h6 {
       font-size: 0.875rem;
       line-height: 1rem;
       font-weight: 500;

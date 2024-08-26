@@ -53,6 +53,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
     ],
     heading: {
       options: [
+        { model: 'giant1', view: { name: 'h1', classes: 'typography-giant1' }, title: 'Giant 1' },
         { model: 'heading1', view: { name: 'h1', classes: 'typography-h1' }, title: 'H1' },
         { model: 'heading2', view: { name: 'h2', classes: 'typography-h2' }, title: 'H2' },
         { model: 'heading3', view: { name: 'h3', classes: 'typography-h3' }, title: 'H3' },

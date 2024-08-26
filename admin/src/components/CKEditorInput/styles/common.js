@@ -19,6 +19,13 @@ export const style = css`
       margin: revert;
     }
 
+    .typography-giant1 {
+      font-size: 6rem;
+      font-weight: 600;
+      line-height: 6.5rem;
+      letter-spacing: -0.125rem;
+    }
+
     .typography-h1 {
       font-size: 4.75rem;
       font-weight: 500;
